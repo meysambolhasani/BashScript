@@ -10,7 +10,7 @@ mkdir "$2"
 files=`ls $1/*png`
 b="1"
 for i in $files ;do
-   convert "$i" -resize 50% "$HOME/dest/$b.jpg"
+   convert "$i" -resize 50% "$2/$b.jpg"
    echo "file $b.jpg is created"   
    ((b++)) 	
 done
