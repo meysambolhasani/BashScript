@@ -3,7 +3,7 @@
 # $1 is source path
 # $2 is destination path
 
-
+echo hello
 clear
 IFS=$'\n'
 mkdir "$2"
