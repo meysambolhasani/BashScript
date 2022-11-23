@@ -3,10 +3,11 @@
 # $1 is source path
 # $2 is destination path
 
-echo hello
+
 clear
 IFS=$'\n'
 mkdir "$2"
+echo hello
 files=`ls $1/*png`
 b="1"
 for i in $files ;do
